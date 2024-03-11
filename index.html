@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pwioi clone</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: rgb(32, 32, 39);
+            color: white;
+            font-weight: bold;
+        }
+        .nav{
+            height: 85px;
+            display: flex;
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: small;
+            background-color: black;
+            
+        }
+        .item1{
+            width: 60px;
+          height: 80px;
+          margin: -5px 15px 0px 50px;
+          
+          
+        }
+        .item2{
+            height: 80px;
+            width: 180px;
+           
+            
+        }
+        .logo{
+            font-size: 20px;
+           
+           line-height:0.3;
+            margin: 22px 10px 10px 0px;
+            font-family: Verdana, Geneva, sans-serif;
+        } 
+        .item3{
+            width: 200px;
+             /* border:1px solid white ; */
+        }
+        .item4{
+            width: 180px;
+           
+            margin: 30px 5px 10px 40px;
+
+        }
+        .item5{
+            width: 220px;
+           
+            margin: 20px 5px 10px 40px;
+            
+        }
+        button{
+            background-size:220px 50px;
+            color: white;
+            width: 220px;
+            height: 45px;
+            background-color: rgb(11, 112, 112);
+            border-radius: 5px;
+            font-size: 15px;
+        }
+        .outer{
+            height: 380px;
+             display: flex;
+        }
+        .inner1{
+            margin: 80px 0px 0px 100px;
+            height: 380px;
+            width: 350px;
+            
+        }
+        .pw{
+            font-size: 35px;
+            line-height: 1.8;
+            font-weight: bolder;
+            font-family: Lucida Grande, Lucida Sans Unicode, Lucida Sans, Geneva, Verdana, sans-serif;
+        }
+        .para{
+            font-family: Lucida Grande, Lucida Sans Unicode, Lucida Sans, Geneva, Verdana, sans-serif;
+            line-height: 1.7;
+            font-weight: lighter;
+        }
+        .inner2{
+            margin: 80px 0px 0px 100px;
+            height: 380px;
+            width: 200px;
+            /* border:1px solid white ; */
+        }
+        .inner3{
+            background-color: white;
+            color: black;
+            margin: 80px 0px 0px 100px;
+            height: 380px;
+            width: 330px;
+            
+            padding-top: 15px;
+            padding-left: 20px;
+            font-family: Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-serif;
+            font-weight: bold;
+            border-radius: 10px;
+        }
+        .one{
+            /* line-height: 4.5; */
+
+            height: 30px;
+            width:300px ;
+            border: none;
+            border-bottom: 1px solid black;
+            font-size: 14px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <div class="item1"><a href="https://pwioi.com/" target="_blank"><img src="PHYSICS WALLAH.jpeg" alt="image" height="90px">
+        </a>
+        </div>
+        <div class="item2">
+           <a href="https://pwioi.com/" target="_blank" style="text-decoration: none; color: white;">
+           <p class="logo"> INSTITUTE OF</p>
+           <p class="logo">INNOVATION </p>
+           </a>
+        </div>
+        <div class="item3"></div>
+        <div class="item4">
+           <a href="https://pwioi.com/management" target="_blank" style="text-decoration: none; color: white;">School Of Management</a>
+        </div>
+        <div class="item4">
+            <a href="https://pwioi.com/technology" target="_blank" style="text-decoration: none; color: white;">School Of Technology</a>
+        </div>
+        <div class="item5">
+            <button><a href="https://accounts.pwskills.com/login?domain=pwioi.com&redirectUrl=%2F" target="_blank" style="text-decoration: none; color: white;" >Apply Now for CEE</a></button>
+        </div>
+    </div>
+    <div class="outer">
+        <div class="inner1">
+            <a class="pw">
+                PW Institute of
+            </a>
+            <a class="pw">
+                Innovation (PW IOI)
+            </a>
+            <br><br>
+            <p class="para">Embark on a journey of innovation, exploration, and hands-on learning with PW IOI programs. Our experiential approach opens doors to a world of industry-oriented education, where you don't just learn but experiment, experience, and explore.
+            </p><br>
+            <p class="para">
+                Enroll for the CEE (Common Entrance Exam) to ignite your learning adventure</p>
+        </div>
+        <div class="inner2">
+          
+        </div>
+        <div class="inner3">
+            <h2>Start Your Journey Here</h2> <br> <br>
+           <input type="text" placeholder="Full Name*" class="one">
+           <br><br> 
+           <input type="email" class="one" placeholder="Email Address">   <br><br>
+           <input type="number" placeholder="+91 Enter your mobile number" class="one">
+           <br><br>
+           <input type="text" class="one" placeholder="Enter your Address"><br><br>
+           <select class="one">
+            <option value="None">Select your School</option>
+            <option value="SOT">School of Technology</option>
+            <option value="SOM"> School of Management</option>
+            <option value="NA"></option>
+           </select>
+        </div>
+    </div>
+</body>
+</html>
